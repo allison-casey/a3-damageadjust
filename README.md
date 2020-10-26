@@ -18,7 +18,8 @@ class's name when you call the script. Each entry in the adjustment class is
 a section on the unit that recieves damage, for infantry the sections are
 `["" "face_hub" "neck" "head" "pelvis" "spine1" "spine2" "spine3" "body" "arms" "hands" "legs"]`. 
 `""` represents *overall* damage applied to the unit and is represented in the adjustment
-class with the key `overall`. An example of a config could look like:
+class with the key `overall`. A value of for each key is a float where `1` represents
+`100%` damage, or no change. An example of a config could look like:
 
 ```cpp
 class DamageAdjustConfig {
