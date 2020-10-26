@@ -47,5 +47,5 @@ class DamageAdjustConfig {
 for penetation and units can die if any one of the sections goes over the limit. Therefor 
 it is advisable to adjust coherent groups together to get consistent behavior.
 
-Examples `initPlayerLocal.sqf` and `description.ext`'s can be found under the `examples`
+Examples of an `initPlayerLocal.sqf` and an `description.ext` can be found under the `examples`
 folder in this repo.
