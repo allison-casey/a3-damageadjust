@@ -1,6 +1,7 @@
 _character = (_this select 0);
 _config = (_this select 1);
 
+_character removeAllEventHandlers "HandleDamage";
 _character setVariable ["config_section", _config];
 
 // Handledamage

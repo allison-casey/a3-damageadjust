@@ -1,0 +1,31 @@
+class DamageAdjustConfig {
+  class Player {
+    overall = 1;
+    face_hub = 1;
+    neck = 1;
+    head = 1;
+    pelvis = 1;
+    spine1 = 1;
+    spine2 = 1;
+    spine3 = 1;
+    body = 1;
+    arms = 1;
+    hands = 1;
+    legs = 1;
+  }
+
+  class AnAIUnit {
+    overall = 0.2;
+    face_hub = 0.2;
+    neck = 0.2;
+    head = 2;
+    pelvis = 0.2;
+    spine1 = 0.2;
+    spine2 = 0.2;
+    spine3 = 0.2;
+    body = 0.2;
+    arms = 0.2;
+    hands = 2;
+    legs = 0.2;
+  }
+}
